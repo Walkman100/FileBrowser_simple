@@ -11,7 +11,7 @@
         If My.Settings.LastDir <> "" Then
             WorkingDir = My.Settings.LastDir
         End If
-        Refresh()
+        RefreshList()
         ' command line args
         For Each s As String In My.Application.CommandLineArgs
             If s.ToLower.StartsWith("hidegui") Then
@@ -20,7 +20,7 @@
         Next
     End Sub
 
-    Private Sub Refresh()
+    Private Sub RefreshList()
         FileBrowserList.Items.Clear()
         For Each Folder As String In System.IO.Directory.GetDirectories(WorkingDir)
             FileBrowserList.Items.Add(Mid(Folder, Len(WorkingDir) + 1))
@@ -28,17 +28,17 @@
     End Sub
     
     Private Sub CDHere() Handles FileBrowserList.DoubleClick
-        If FileBrowserList.SelectedIndices <> "" Then
-            WorkingDir = WorkingDir & FileBrowserList.SelectedItems & "\"
+        If FileBrowserList.SelectedIndices.ToString <> "" Then
+            WorkingDir = WorkingDir & FileBrowserList.SelectedItems.ToString & "\"
             My.Settings.LastDir = WorkingDir
-            Refresh()
+            RefreshList()
         Else
             Try
                 WorkingDir = WorkingDir.Remove(WorkingDir.Length - 1)
                 WorkingDir = WorkingDir.Remove(WorkingDir.LastIndexOf("\"))
                 WorkingDir = WorkingDir & "\"
                 My.Settings.LastDir = WorkingDir
-                Refresh()
+                RefreshList()
             Catch ex As System.ArgumentOutOfRangeException
                 MsgBox("Cannot go higher than the root of a drive!", MsgBoxStyle.Critical, "Trying to go up from a drive root")
             End Try
