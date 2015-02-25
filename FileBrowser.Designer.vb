@@ -550,67 +550,67 @@ Partial Class FileBrowser
         Me.ResumeLayout(false)
         Me.PerformLayout
     End Sub
-    Private MenuStripToolsSwitchMode As System.Windows.Forms.ToolStripMenuItem
-    Private SplitContainer As System.Windows.Forms.SplitContainer
-    Private ToolStripHelp As System.Windows.Forms.ToolStripButton
-    Private ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
-    Private ToolStripPaste As System.Windows.Forms.ToolStripButton
-    Private ToolStripCopy As System.Windows.Forms.ToolStripButton
-    Private ToolStripCut As System.Windows.Forms.ToolStripButton
-    Private ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
-    Private ToolStripPrint As System.Windows.Forms.ToolStripButton
-    Private ToolStripNew As System.Windows.Forms.ToolStripButton
-    Private ToolStrip As System.Windows.Forms.ToolStrip
-    Private ToolTip As System.Windows.Forms.ToolTip
-    Private MenuStripHelpAbout As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripHelpSeparator1 As System.Windows.Forms.ToolStripSeparator
-    Private MenuStripHelpSearch As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripHelpIndex As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripHelpContents As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripHelp As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripToolsOptions As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripToolsCustomize As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripTools As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripEditSelectAll As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripEditSeparator2 As System.Windows.Forms.ToolStripSeparator
-    Private MenuStripEditPaste As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripEditCopy As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripEditCut As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripEditSeparator1 As System.Windows.Forms.ToolStripSeparator
-    Private MenuStripEditRedo As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripEditUndo As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripEdit As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripFileExit As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripFileSeparator3 As System.Windows.Forms.ToolStripSeparator
-    Private MenuStripFilePrintPreview As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripFilePrint As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripFileSeparator2 As System.Windows.Forms.ToolStripSeparator
-    Private MenuStripFileSeparator1 As System.Windows.Forms.ToolStripSeparator
-    Private MenuStripFileNew As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStripFile As System.Windows.Forms.ToolStripMenuItem
-    Private MenuStrip As System.Windows.Forms.MenuStrip
-    Private StatusStrip As System.Windows.Forms.StatusStrip
-    Private FileBrowserTree As System.Windows.Forms.TreeView
-    Private FileBrowserList As System.Windows.Forms.ListView
-    Private OpenFileDialog As System.Windows.Forms.OpenFileDialog
-    Friend ContextMenuStripReposGitPushThis As System.Windows.Forms.ToolStripMenuItem
-    Friend ContextMenuStripReposGitPullThis As System.Windows.Forms.ToolStripMenuItem
-    Friend ContextMenuStripReposSeparator4 As System.Windows.Forms.ToolStripSeparator
-    Friend ContextMenuStripReposCDHere As System.Windows.Forms.ToolStripMenuItem
-    Private ContextMenuStripReposRemoveEntry As System.Windows.Forms.ToolStripMenuItem
-    Private ContextMenuStripReposSeparator3 As System.Windows.Forms.ToolStripSeparator
-    Private ContextMenuStripReposCopyRepoPath As System.Windows.Forms.ToolStripMenuItem
-    Private ContextMenuStripReposCopyRepoName As System.Windows.Forms.ToolStripMenuItem
-    Private ContextMenuStripReposSeparator2 As System.Windows.Forms.ToolStripSeparator
-    Friend ContextMenuStripReposOpenURL As System.Windows.Forms.ToolStripMenuItem
-    Private ContextMenuStripReposOpenSLN As System.Windows.Forms.ToolStripMenuItem
-    Private ContextMenuStripReposOpenReadme As System.Windows.Forms.ToolStripMenuItem
-    Private ContextMenuStripReposSeparator1 As System.Windows.Forms.ToolStripSeparator
-    Private ContextMenuStripReposOpenInGitHub As System.Windows.Forms.ToolStripMenuItem
-    Private ContextMenuStripReposOpenInBash As System.Windows.Forms.ToolStripMenuItem
-    Private ContextMenuStripReposOpenInPS As System.Windows.Forms.ToolStripMenuItem
-    Private ContextMenuStripReposOpenInCMD As System.Windows.Forms.ToolStripMenuItem
-    Private ContextMenuStripReposOpenInExplorer As System.Windows.Forms.ToolStripMenuItem
-    Private ContextMenuStripRepos As System.Windows.Forms.ContextMenuStrip
+    Friend WithEvents MenuStripToolsSwitchMode As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents SplitContainer As System.Windows.Forms.SplitContainer
+    Friend WithEvents ToolStripHelp As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents ToolStripPaste As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripCopy As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripCut As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents ToolStripPrint As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripNew As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStrip As System.Windows.Forms.ToolStrip
+    Friend WithEvents ToolTip As System.Windows.Forms.ToolTip
+    Friend WithEvents MenuStripHelpAbout As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripHelpSeparator1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents MenuStripHelpSearch As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripHelpIndex As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripHelpContents As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripHelp As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripToolsOptions As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripToolsCustomize As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripTools As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripEditSelectAll As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripEditSeparator2 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents MenuStripEditPaste As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripEditCopy As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripEditCut As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripEditSeparator1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents MenuStripEditRedo As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripEditUndo As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripEdit As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripFileExit As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripFileSeparator3 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents MenuStripFilePrintPreview As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripFilePrint As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripFileSeparator2 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents MenuStripFileSeparator1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents MenuStripFileNew As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStripFile As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MenuStrip As System.Windows.Forms.MenuStrip
+    Friend WithEvents StatusStrip As System.Windows.Forms.StatusStrip
+    Friend WithEvents FileBrowserTree As System.Windows.Forms.TreeView
+    Friend WithEvents FileBrowserList As System.Windows.Forms.ListView
+    Friend WithEvents OpenFileDialog As System.Windows.Forms.OpenFileDialog
+    Friend WithEvents ContextMenuStripReposGitPushThis As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposGitPullThis As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposSeparator4 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents ContextMenuStripReposCDHere As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposRemoveEntry As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposSeparator3 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents ContextMenuStripReposCopyRepoPath As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposCopyRepoName As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposSeparator2 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents ContextMenuStripReposOpenURL As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposOpenSLN As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposOpenReadme As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposSeparator1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents ContextMenuStripReposOpenInGitHub As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposOpenInBash As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposOpenInPS As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposOpenInCMD As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripReposOpenInExplorer As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextMenuStripRepos As System.Windows.Forms.ContextMenuStrip
 
 End Class
