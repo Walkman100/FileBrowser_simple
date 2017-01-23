@@ -1,4 +1,4 @@
-﻿Public Class FileBrowser
+Public Class FileBrowser
     Dim WorkingDir As String = Environment.GetEnvironmentVariable("USERPROFILE")
     Dim LineIsOrigin, LineIsUpstream, notInserted As Boolean
 '    Dim PSFiles() As String = {"CheckVersion.ps1", "GitPrompt.ps1", "GitTabExpansion.ps1", "GitUtils.ps1", "TortoiseGit.ps1", "Utils.ps1", "posh-git.psm1", "profile.example.ps1"}
