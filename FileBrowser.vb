@@ -3,7 +3,6 @@ Public Partial Class FileBrowser
     Public Sub New()
         ' The Me.InitializeComponent call is required for Windows Forms designer support.
         Me.InitializeComponent()
-        
     End Sub
     
     Sub FileBrowser_Shown(sender As Object, e As EventArgs) Handles Me.Shown
@@ -54,9 +53,9 @@ Public Partial Class FileBrowser
     
     End Sub
     
-    Private Sub treeViewFolders_NodeMouseClick(ByVal sender As Object, ByVal e As TreeNodeMouseClickEventArgs) Handles treeViewFolders.NodeMouseClick
+    Private Sub treeViewFolders_NodeMouseClick(sender As Object, e As TreeViewEventArgs) Handles treeViewFolders.AfterSelect
     
-        Dim newSelected As TreeNode = e.Node
+        Dim newSelected As TreeNode = e.Node 'treeViewFolders.SelectedNode
         listViewFiles.Items.Clear()
         Dim nodeDirInfo As DirectoryInfo = _
         CType(newSelected.Tag, DirectoryInfo)
