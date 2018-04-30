@@ -77,5 +77,10 @@
     <None Include="Properties\App.config" />
     <None Include="Properties\App.manifest" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FileBrowser.resx">
+      <DependentUpon>FileBrowser.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
